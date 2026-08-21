@@ -123,17 +123,7 @@ You can also save a filter configuration so you don't have to re-type it every s
 
 ### Profiler
 
-Open **View → Tool Windows → Profiler** (or the toolbar icon) while the app is running to attach the profiler. It has separate tabs:
-
-| Tab | What it shows |
-|---|---|
-| CPU | Method-level call tree and flame chart during a recorded trace, to find hot functions |
-| Memory | Live heap size, allocation tracking, and the ability to trigger/inspect a heap snapshot to hunt leaks |
-| Network | Individual requests, timing, and payload size for HTTP(S) traffic made by the app |
-| Energy (where available) | Coarse indicators of what's driving power usage (radio, CPU, GPS) |
-
-!!! note "Profiling overhead"
-    Recording detailed CPU traces or full allocation tracking adds overhead and will skew timings somewhat. Use a lighter sampling mode first to find the general area of a problem, then a detailed trace to zoom in.
+Once your app is up and running, **View → Tool Windows → Profiler** (or the toolbar icon) attaches CPU, memory, network, and energy profiling to the running app — reach for it when you actually have a performance problem to chase down, rather than as a first-app concern.
 
 ### A Practical Workflow
 
@@ -193,13 +183,6 @@ Two errors are common enough to call out specifically (both also covered in [Com
 
 * **`compileSdkVersion`/`releaseType` mismatch with the device** — the compiled SDK version is newer than what the target device supports. Lower the compiled version in the relevant `build-profile.json5`, or target a newer device/emulator.
 * **Install failed due to "grant request permissions failed"** — the requested permission's level (`system_basic` or `system_core`) requires the ACLs be explicitly listed in the provisioning profile used for signing. Check [this permissions reference](https://gitcode.com/openharmony/resources/blob/master/systemres/main/config.json) for the level of each permission your `module.json5` requests, and make sure your signing profile grants it.
-
-### A Practical Checklist Before Distributing a Build
-
-1. Confirm you're building the **release** variant, not debug.
-2. Confirm the signing config references a certificate meant for distribution, not the auto-generated debug one.
-3. Bump `versionCode`/`versionName` in `AppScope/app.json5` if this is an update to a previously distributed build.
-4. Do a clean install test on a device that was never used for debug builds of this app, to rule out state left over from development.
 
 ## Common Issues and Solutions
 
