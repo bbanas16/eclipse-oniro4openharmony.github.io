@@ -7,10 +7,10 @@
 !!! note
     For application development, developer verification is not required.
 
-Before downloading DevEco Studio you need a Huawei account. Introduction of registration and identity verification:
+Before downloading DevEco Studio, you need a Huawei account. For details on registration and identity verification, see:
 [HUAWEI ID Registration and Verification | HUAWEI Developers](https://developer.huawei.com/consumer/en/doc/start/registration-and-verification-0000001053628148)
 
-In simple terms, anyone can register for an individual developer account, whether they choose to verify their identity or not. However, it's said that certain permissions require an identity verification with the identity document.
+In simple terms, anyone can register for an individual developer account, whether they choose to verify their identity or not. However, certain permissions reportedly require identity verification using an ID document.
 
 According to information from the Huawei developer forum, verified developers gain access to more development resources, training materials, and market promotion. Moreover, only verified developers are allowed to publish applications.
 
@@ -27,7 +27,7 @@ The latest version of DevEco Studio can be downloaded from the [official downloa
 !!! info
     You need a Huawei account to download.
 
-<img src='../../images/windows_download.png' alt="DevEco Studio download page listing the Windows, Mac (x86), and Mac (ARM) installers">
+<img src='../../images/windows_download.png' alt="DevEco Studio download page listing the Windows, Mac (X86), and Mac (ARM) installers">
 
 === "Windows"
     Download the Windows installer (`.exe`, listed as "DevEco Studio for Windows").
@@ -47,7 +47,7 @@ The latest version of DevEco Studio can be downloaded from the [official downloa
     >**Note:**
     Ensure that you delete all files from the previous installation path before proceeding if this is not your first installation.
 
-    In the **Installation Options** step, keep `Create Desktop Shortcut` checked. Also check **Add "bin" folder to the PATH** if you want to invoke DevEco Studio's bundled command-line tools from any terminal; this option requires a restart to take effect. **Add "Open Folder as Project"** to the Explorer context menu is optional.
+    In the **Installation Options** step, keep `Create Desktop Shortcut` checked. Also check **Add "bin" folder to the PATH** if you want to invoke DevEco Studio's bundled command-line tools from any terminal; this option requires a restart to take effect. Adding **"Open Folder as Project"** to the Explorer context menu is optional.
     <img src='../../images/windows_setup2.png' alt="Installation Options step: desktop shortcut, PATH variable, and context menu checkboxes">
 
     In the **Choose Start Menu Folder** step, keep the default settings and click `Install`.
@@ -57,7 +57,7 @@ The latest version of DevEco Studio can be downloaded from the [official downloa
 
 === "macOS"
     Open the downloaded `.dmg` file, then drag **DevEco-Studio** into the **Applications** folder shown in the same window.
-    <img src='../../images/macos_installation.png' alt="dmg window: dragging DevEco-Studio into the Applications folder">
+    <img src='../../images/macos_installation.png' alt="DMG window: dragging DevEco-Studio into the Applications folder">
 
     Wait for the copy to finish, then eject the mounted disk image.
 
@@ -129,7 +129,7 @@ Select `Do not import settings` (unless migrating from a previous install).
     === "macOS"
         Reach Settings via **DevEco Studio → Settings** in the menu bar (or the `⌘,` shortcut).
 
-The environment configuration is completed.
+The environment configuration is now complete.
 <img src='../../images/image14.png'>
 
 !!! note "Install Relevant APIs"
