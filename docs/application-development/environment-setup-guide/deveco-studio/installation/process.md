@@ -161,25 +161,4 @@ The environment configuration is completed.
 
     ![SDK Manager](../../images/image18.png){: .center}
 
-### Enabling Additional Device Types
-
-By default, DevEco Studio's region setting can limit which emulator device types (phone, tablet, etc.) are available to download in Device Manager. To unlock the full set, edit the `country.region.xml` configuration file and set its region to `CN`.
-
-=== "Windows"
-    Open `%AppData%\Huawei\DevEcoStudio<version>\options\country.region.xml` in a text editor and set `"countryregion name"` to `"CN"`.
-    <img src='../../images/windows_conf_file.png' alt="File explorer showing country.region.xml inside the DevEco Studio options folder">
-
-=== "macOS"
-    Open a terminal and run:
-
-    ```bash
-    cd ~/Library/Application\ Support/Huawei/DevEcoStudio<version>/options && nano country.region.xml
-    ```
-
-    Set `"countryregion name"` to `"CN"`, then save and exit.
-    <img src='../../images/macos_command.png' alt="Terminal command to open country.region.xml with nano on macOS">
-
-!!! note
-    Replace `<version>` in the path above with your installed DevEco Studio version, e.g. `DevEcoStudio6.1`.
-
 With the developer account set up, DevEco Studio installed, and the environment configured, you're ready to explore the IDE itself — continue to [Workflow](../workflow.md).

@@ -34,9 +34,6 @@ Device Manager's **Your Devices** page lists any emulators you've already create
 !!! tip "Match the API level to your project"
     If the emulator's API level is lower than your module's `compatibleSdkVersion`/`compileSdkVersion`, install/run can fail or behave inconsistently. Keep at least one emulator matching your project's target API.
 
-!!! note "Limited device types available?"
-    If Device Manager only offers a narrow set of device types, your DevEco Studio region setting may be restricting them — see [Enabling Additional Device Types](installation/process.md#enabling-additional-device-types).
-
 ### Boot Modes
 
 * **Cold boot** — starts the emulator from a clean state every time. Slower, but useful when you need to rule out state left over from a previous run.
@@ -90,7 +87,7 @@ hdc install ./entry-default-signed.hap
 
 * **Emulator won't start / black screen** — confirm virtualization is enabled in BIOS/UEFI (Windows), and check that no other virtualization software (Hyper-V, VirtualBox, etc.) is conflicting with it.
 * **Slow performance** — close unused emulators, allocate more RAM/CPU cores to the virtual device in its configuration, and prefer a lower-resolution device profile for quick UI checks.
-* **System image download stuck or failing** — check the region setting from [Enabling Additional Device Types](installation/process.md#enabling-additional-device-types) (some system images are region-restricted) and verify your network/proxy configuration.
+* **System image download stuck or failing** — some system images are region-restricted, so double-check your account/region settings, and verify your network/proxy configuration.
 * **App fails to install on the emulator** — see the `compileSdkVersion`/permission-related entries in [Common Issues and Solutions](first-app.md#common-issues-and-solutions).
 
 Next: run the app and diagnose problems in [First App](first-app.md#debugging-and-profiling).
