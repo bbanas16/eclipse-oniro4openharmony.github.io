@@ -135,20 +135,6 @@ Settings that apply to the whole application, not just one module:
 * `oh-package.json5` (root) — workspace-level dependency declarations and the `oh_modules` resolution behavior.
 * `hvigorfile.ts` — the build script for **Hvigor**, OpenHarmony's build system (conceptually similar to a Gradle build script).
 
-### Resource Qualifiers
-
-Resource folders under `resources/` use qualifiers to target specific device configurations, for example:
-
-```text
-resources/
-├── base/            # fallback, always present
-├── en_US/            # locale
-├── dark/             # color mode
-└── phone/            # device type
-```
-
-DevEco Studio resolves the best-matching folder at build/runtime based on the current device's locale, color mode, screen density, and device type — you rarely need to write this logic yourself.
-
 ### Where the IDE Keeps Its Own State
 
 Two folders are IDE/tooling-generated and should **not** be committed to version control:
@@ -178,13 +164,7 @@ As you type, DevEco Studio suggests:
 
 ### Navigating Code
 
-| Action | Shortcut | Notes |
-|---|---|---|
-| Go to declaration | `Ctrl+B` / Ctrl+Click | Jumps to where a symbol is defined |
-| Go to implementation | `Ctrl+Alt+B` | Useful for interfaces with multiple implementers |
-| Find usages | `Alt+F7` | Lists every call site in a dedicated tool window |
-| Show call hierarchy | `Ctrl+Alt+H` | Visualizes callers/callees of a function |
-| Structure view | `Alt+7` | Outline of the current file's declarations |
+Beyond `Ctrl+B` and `Alt+F7` from the Essential Navigation Shortcuts above, the **Structure view** (`Alt+7`) is worth knowing about — it shows an outline of the current file's declarations, handy for jumping around a large page.
 
 ### Refactoring
 
@@ -215,14 +195,7 @@ Live Templates are expandable code snippets. Type an abbreviation and press `Tab
 
 ### Formatting and Imports
 
-| Action | Shortcut |
-|---|---|
-| Reformat code | `Ctrl+Alt+L` |
-| Optimize imports (remove unused, sort) | `Ctrl+Alt+O` |
-| Reformat and optimize on save | Enable under **Settings → Tools → Actions on Save** |
-
-!!! tip "Team consistency"
-    If multiple people work on the same project, agree on formatter settings (**Settings → Editor → Code Style**) early — reformatting churn on every commit makes diffs much harder to review.
+Reformat with `Ctrl+Alt+L` (already listed above); enable **Reformat and optimize imports on save** under **Settings → Tools → Actions on Save** if you'd rather not think about it.
 
 ## Version Control
 
