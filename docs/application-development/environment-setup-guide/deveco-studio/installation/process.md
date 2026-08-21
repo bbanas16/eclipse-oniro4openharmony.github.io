@@ -121,7 +121,7 @@ Select `Do not import settings` (unless migrating from a previous install).
 <img src='../../images/image8.png'>
 
 !!! tip "Behind a proxy?"
-    If your network requires a proxy, configure it now under **Settings → Appearance & Behavior → System Settings → HTTP Proxy** — otherwise the Basic Setup step below may fail to download Node.js, Ohpm, or SDK components.
+    If your network requires a proxy, configure it now under **Settings → Appearance & Behavior → System Settings → HTTP Proxy** — otherwise the steps below may fail to download SDK components.
 
     === "Windows"
         Reach Settings via **File → Settings**.
@@ -129,9 +129,7 @@ Select `Do not import settings` (unless migrating from a previous install).
     === "macOS"
         Reach Settings via **DevEco Studio → Settings** in the menu bar (or the `⌘,` shortcut).
 
-On `Basic Setup` page, select install for **Node.js** and **Ohpm**.
-<img src='../../images/image9.png'>
-Click **Next** to proceed to the SDK configuration page, and then set the SDK path to an appropriate location.
+On the SDK configuration page, set the SDK path to an appropriate location.
 <img src='../../images/image10.png'>
 Accept the License Agreement
 <img src='../../images/image11.png'>
