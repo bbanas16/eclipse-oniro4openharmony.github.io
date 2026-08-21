@@ -42,12 +42,7 @@ Once a project is open, the main window is split into the following regions:
 | Previewer | — (opens automatically for `.ets` pages) | Live rendering of the current ArkUI page |
 | Terminal | `Alt+F12` | Embedded shell, useful for `ohpm` and `hdc` commands |
 | Log / HiLog | — | Device/emulator log output, filterable by tag and level |
-| Build | `Alt+0` | Output of Gradle-like Hvigor build tasks |
 | Version Control | `Alt+9` | Git status, commit dialog, history, diff viewer |
-| Device Manager | — | Create and launch emulators |
-| Profiler | — | CPU, memory, network, and energy profiling of a running app |
-| Problems | — | Aggregated inspection warnings/errors across the project |
-| TODO | — | Collects `// TODO` comments across the codebase |
 
 !!! note "Shortcuts differ per keymap"
     The shortcuts above use the default Windows/Linux keymap. macOS uses `Cmd` instead of `Ctrl` for most bindings. You can inspect or change any binding under **Settings → Keymap**.
