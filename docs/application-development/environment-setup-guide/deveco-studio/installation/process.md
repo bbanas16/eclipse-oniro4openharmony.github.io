@@ -112,7 +112,7 @@ Before setting up your development environment, it's important to understand the
 ### DevEco Studio Initial Setup
 
 When you run `DevEco Studio` for the first time, the setup wizard will appear. This first-run wizard is the same on Windows and macOS — the screenshots below are from Windows, but macOS shows the same dialogs (just with macOS-style window chrome instead of the Windows title bar).
-<img src='../../images/image7.png'>
+<img src='../../images/deveco_welcome_screen.png'>
 
 !!! note "macOS Gatekeeper / User Agreement"
     On macOS, before the wizard below appears you may first see a **User Agreement** dialog asking you to accept the "HarmonyOS Software License and Service Agreement" — accept it to continue. If macOS blocked the app from opening at all, see the Gatekeeper note in [Step-by-Step Installation](#step-by-step-installation) above.
