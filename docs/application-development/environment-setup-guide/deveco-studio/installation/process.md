@@ -129,13 +129,6 @@ Select `Do not import settings` (unless migrating from a previous install).
     === "macOS"
         Reach Settings via **DevEco Studio → Settings** in the menu bar (or the `⌘,` shortcut).
 
-On the SDK configuration page, set the SDK path to an appropriate location.
-<img src='../../images/image10.png'>
-Accept the License Agreement
-<img src='../../images/image11.png'>
-Check the summary information and go next
-<img src='../../images/image12.png'>
-<img src='../../images/image13.png'>
 The environment configuration is completed.
 <img src='../../images/image14.png'>
 
