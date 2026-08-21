@@ -151,8 +151,6 @@ The environment configuration is completed.
       Open **DevEco Studio** and go to:
       `Settings` → `OpenHarmony SDK`, check the API version(s) you need and click **Apply** to download.
 
-      You don't strictly have to do this ahead of time — if a project needs an API version you haven't installed yet, DevEco Studio will prompt you to download it automatically the first time you build or run the app.
-
       > 💡 If you're using **DevEco Studio 6.1**, select **API Version 23** for development.
       >
       > Refer to the version mapping table above to choose the appropriate API level for your target OpenHarmony system.
