@@ -125,13 +125,6 @@ You can also save a filter configuration so you don't have to re-type it every s
 
 Once your app is up and running, **View → Tool Windows → Profiler** (or the toolbar icon) attaches CPU, memory, network, and energy profiling to the running app — reach for it when you actually have a performance problem to chase down, rather than as a first-app concern.
 
-### A Practical Workflow
-
-1. Reproduce the issue once without any tooling attached, so you know what "broken" looks like.
-2. If it's a logic bug, set a conditional breakpoint close to the suspected cause and step from there.
-3. If it's a performance issue, record a CPU trace covering just the slow interaction, not the whole session — shorter traces are far easier to read.
-4. If it's a crash under load or over time, check Memory for steadily growing retained size across repeated actions — a classic leak signature.
-
 ## Build Variants and Signing
 
 Sooner or later you need a package you can hand to someone else — a `.hap`/`.app` file installable outside of DevEco Studio's own Run/Debug flow. That requires understanding build products and signing.
