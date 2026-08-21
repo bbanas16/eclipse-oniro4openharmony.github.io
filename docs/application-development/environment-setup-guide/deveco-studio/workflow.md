@@ -34,15 +34,17 @@ Once a project is open, the main window is split into the following regions:
     * **Project** – the raw directory structure on disk.
     * **Project Files** – filters out most build/IDE metadata so only source-relevant files remain.
 
-### Key Tool Windows
+### Essential Shortcuts
 
-| Tool window | Default shortcut | What it's for |
-|---|---|---|
-| Project | `Alt+1` | Browse and manage project files |
-| Previewer | — (opens automatically for `.ets` pages) | Live rendering of the current ArkUI page |
-| Terminal | `Alt+F12` | Embedded shell, useful for `ohpm` and `hdc` commands |
-| Log / HiLog | — | Device/emulator log output, filterable by tag and level |
-| Version Control | `Alt+9` | Git status, commit dialog, history, diff viewer |
+Before learning where every tool window lives, these are the five shortcuts worth memorizing on day one:
+
+| Shortcut | What it does |
+|---|---|
+| `Ctrl+F` | Find text in the current file |
+| `Ctrl+S` | Save all files |
+| `Shift+F10` | Run the app |
+| `Shift+F9` | Debug the app |
+| `Ctrl+Z` | Undo the last change |
 
 !!! note "Shortcuts differ per keymap"
     The shortcuts above use the default Windows/Linux keymap. macOS uses `Cmd` instead of `Ctrl` for most bindings. You can inspect or change any binding under **Settings → Keymap**.
