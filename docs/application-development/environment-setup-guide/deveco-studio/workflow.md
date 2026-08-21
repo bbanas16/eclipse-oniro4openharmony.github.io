@@ -54,7 +54,7 @@ Before learning where every tool window lives, these are the five shortcuts wort
 | Action | Shortcut |
 |---|---|
 | Search everywhere (files, classes, actions, settings) | `Shift` `Shift` (double Shift) |
-| Go to declaration/definition | `Ctrl+B` or Ctrl+Click |
+| Go to declaration/definition | `Ctrl+B` or `Ctrl+Click` |
 | Comment/uncomment line | `Ctrl+/` |
 | Reformat code | `Ctrl+Alt+L` |
 | Find usages | `Alt+F7` |
@@ -149,7 +149,7 @@ The [Version Control](#version-control) section below gives a ready-to-use `.git
 
 ## Editor Features
 
-DevEco Studio's editor is one of its strongest points: because it is built on the IntelliJ Platform, ArkTS/ArkUI code gets the same class of tooling that TypeScript and Java developers rely on daily.
+DevEco Studio's editor is one of its strongest points — because it is built on the IntelliJ Platform, ArkTS/ArkUI code gets the same class of tooling that TypeScript and Java developers rely on daily.
 
 ### Code Completion
 
@@ -157,7 +157,7 @@ As you type, DevEco Studio suggests:
 
 * Component names and their parameters (e.g. typing `Text(` shows the expected argument).
 * Available `@State`/`@Prop`/`@Link` decorators for ArkUI component properties.
-* Imports it can add automatically when you accept a suggestion from an unimported symbol.
+* Automatic import insertion when you accept a suggestion for a symbol that isn't imported yet.
 
 !!! tip "Smart completion"
     `Ctrl+Shift+Space` narrows suggestions to what's actually valid at the cursor (e.g. only types assignable to the expected parameter), which is more useful than basic completion (`Ctrl+Space`) once a project grows.
@@ -225,7 +225,7 @@ The branch indicator in the bottom-right status bar opens a menu to checkout, cr
 
 ### Resolving Conflicts
 
-When a merge/rebase produces a conflict, DevEco Studio opens a three-pane merge tool: your version, the result, and the incoming version, with per-block **Accept Yours/Theirs** actions plus manual editing of the result pane. Resolve each conflicting file this way, then mark the merge/rebase as continued from the VCS menu.
+When a merge/rebase produces a conflict, DevEco Studio opens a three-pane merge tool: your version, the result, and the incoming version, with per-block **Accept Yours/Theirs** actions plus manual editing of the result pane. Resolve each conflicting file this way, then continue the merge/rebase from the VCS menu.
 
 ### Recommended `.gitignore`
 
