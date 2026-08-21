@@ -54,12 +54,10 @@ Before learning where every tool window lives, these are the five shortcuts wort
 | Action | Shortcut |
 |---|---|
 | Search everywhere (files, classes, actions, settings) | `Shift` `Shift` (double Shift) |
-| Go to file | `Ctrl+Shift+N` |
 | Go to declaration/definition | `Ctrl+B` or Ctrl+Click |
-| Find usages | `Alt+F7` |
-| Show recent files | `Ctrl+E` |
+| Comment/uncomment line | `Ctrl+/` |
 | Reformat code | `Ctrl+Alt+L` |
-| Optimize imports | `Ctrl+Alt+O` |
+| Find usages | `Alt+F7` |
 
 Getting comfortable with **Search Everywhere** (double `Shift`) is the single highest-leverage habit — it can open files, jump to a settings page, or run an IDE action without hunting through menus.
 
