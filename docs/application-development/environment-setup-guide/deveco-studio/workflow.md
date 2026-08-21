@@ -243,17 +243,6 @@ Open it with `Alt+9` or **View → Tool Windows → Commit**. It shows:
 !!! tip "Review before committing"
     Click through each changed file's diff in the Commit window before committing — it's the same discipline as `git diff` before `git add`, just inline with the editor.
 
-### Useful VCS Shortcuts
-
-| Action | Shortcut |
-|---|---|
-| Open Commit tool window | `Alt+9` |
-| Show local changes / diff | `Ctrl+D` (with a file selected) |
-| Update project (pull) | `Ctrl+T` |
-| Push | `Ctrl+Shift+K` |
-| Show history for a file | Right-click file → Git → Show History |
-| Annotate (blame) | Right-click gutter → Annotate with Git Blame |
-
 ### Branch Management
 
 The branch indicator in the bottom-right status bar opens a menu to checkout, create, rename, or merge branches without a terminal. It also shows incoming/outgoing commit counts once you've fetched.
