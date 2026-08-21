@@ -149,7 +149,7 @@ The environment configuration is completed.
       To run applications for OpenHarmony, you also need to install the relevant APIs.
 
       Open **DevEco Studio** and go to:
-      `Tool` → `SDK Manager` → `OpenHarmony`, select an API version and click **Apply** to download.
+      `Settings` → `OpenHarmony SDK`, check the API version(s) you need and click **Apply** to download.
 
       > 💡 If you're using **DevEco Studio 6.1**, select **API Version 23** for development.
       >
@@ -159,6 +159,6 @@ The environment configuration is completed.
 
     </div>
 
-    ![SDK Manager](../../images/image18.png){: .center}
+    ![OpenHarmony SDK settings page listing API versions 23, 20, 18, and 15 with their ArkTS/JS/Native/Previewer/Toolchains components](../../images/deveco_api_screen.png){: .center}
 
 With the developer account set up, DevEco Studio installed, and the environment configured, you're ready to explore the IDE itself — continue to [Workflow](../workflow.md).
